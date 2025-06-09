@@ -1,0 +1,13 @@
+html {
+    font-size: 14px;
+}
+
+.questionmark-test {
+    background-image: url('../img/question.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+}
