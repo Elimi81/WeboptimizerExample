@@ -3,8 +3,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddWebOptimizer(options =>
 {
 	options.AddCssBundle(UIProject.Models.ApplicationSettings.CssBundleName,
-		"/css/site.css",		
-		"/_content/Razor.Library.Common/lib/ionicons/css/ionicons.css");	
+		"/css/site.css");
 });
 
 builder.Services.AddControllersWithViews();
